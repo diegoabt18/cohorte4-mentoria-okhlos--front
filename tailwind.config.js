@@ -3,6 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily:{
+      "GilroyLigth":["GilroyLigth", "sans-serif"],
+      "Roboto":["Roboto", "sans-serif"]
+
+    },
     extend: {
       colors:{
         'PrimarioColor1': '#92C149',
