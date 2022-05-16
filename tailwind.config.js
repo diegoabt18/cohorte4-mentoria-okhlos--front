@@ -4,6 +4,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        'GilroyLight':['GilroyLigth', 'sans-serif'],
+        'Roboto':["Roboto"]
+      },
       colors:{
         'PrimarioColor1': '#92C149',
         'PrimarioColor2': '#FFCC02',
