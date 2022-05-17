@@ -1,0 +1,1 @@
+export { default as IconResponsiveCabecera } from './images/IconResponsiveCabacera.jpg'

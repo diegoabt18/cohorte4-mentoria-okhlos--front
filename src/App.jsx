@@ -1,15 +1,12 @@
 import { useState } from 'react'
-import logo from './public/logo.svg'
 import './App.css'
-import Prueba from './components/Prueba'
-import Admin from './views/admin/Admin'
-import Login from './views/admin/Login'
+import InputNombre from './components/atoms/InputNombre'
 
 function App() {
   const [count, setCount] = useState(0)
   return (
     <div className="App">
-       <Prueba/>
+      <InputNombre />
     </div>
   )
 }
