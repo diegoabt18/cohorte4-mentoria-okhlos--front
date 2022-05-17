@@ -15,7 +15,8 @@ module.exports = {
         'PrimarioColor4': '#D7D7D7',
         'PrimarioColor5': '#010101',
         'SecundarioColor1': '#1A2818',
-        'SecundarioColor2': '#7AC139'
+        'SecundarioColor2': '#7AC139',
+        'SecondarioColor3': 'rgba(119, 161, 53, 0.67)',
       }
     },
   },
