@@ -1,10 +1,11 @@
 import React from 'react'
-import { IconCabecera } from '../../assets/images/IconResponsiveCabacera.jpg'
+import Images from '../../assets/Images'
+
 
 const IconResponsiveCabecera = () => {
   return (
     <div>
-        <img src={IconCabecera} alt="Logo Educamás"  style={{width: '40px'}}/>
+        <img src={Images.IconResponsiveCabacera} alt="Logo Educamás"  style={{width: '40px'}}/>
     </div>
   )
 }

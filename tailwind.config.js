@@ -4,11 +4,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily:{
-        'GilroyLight':['GilroyLigth', 'sans-serif'],
-        'Roboto':["Roboto"]
+      fontFamily: {
+        'GilroyLight': ['GilroyLigth', 'sans-serif'],
+        'Roboto': ["Roboto"]
       },
-      colors:{
+      colors: {
         'PrimarioColor1': '#92C149',
         'PrimarioColor2': '#FFCC02',
         'PrimarioColor3': '#FEFEFE',
@@ -20,5 +20,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+  
+  ]
 }
