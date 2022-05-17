@@ -1,10 +1,9 @@
-import React from 'react'
-import Images from '../assets/Images'
+import React from 'react';
+
 const Prueba = () => {
   
   return (
-    <div>
-       <img src={Images.Logo} alt="asdas" />
+    <div >
     </div>
   )
 }

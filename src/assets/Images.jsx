@@ -1,6 +1,10 @@
-import Logo from './images/logo-negro-alta.png';
+import LogoNegroEducamas from './images/logo-negro-alta.png';
+import LogoColorEducamas from './images/Logo-color-alta-.png';
+import LogoBlancoEducamas from './images/logo-blanco-alta-.png';
 
 
 export default {
-    Logo
+    LogoNegroEducamas,
+    LogoColorEducamas,
+    LogoBlancoEducamas
 }

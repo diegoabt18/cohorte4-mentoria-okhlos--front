@@ -1,8 +1,9 @@
 import React from 'react'
+import Images from '../../assets/images'
 
 const LogoMenuSidebar = () => {
   return (
-    <img src="../src/public/images/logo-negro-alta.png" alt="" srcset="" />
+    <img src={Images.LogoNegroEducamas} alt="" srcset="" />
   )
 }
 

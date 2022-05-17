@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Images from '../../assets/images'
 //EL logo es blanco 
 const LogoFooter = () => {
     return (
-            <img src="../src/public/images/logo-blanco-alta-.png" alt="" srcset="" />
+            <img src={Images.LogoBlancoEducamas} alt="" srcset="" />
 
     )
 }
