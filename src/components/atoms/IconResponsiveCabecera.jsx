@@ -1,5 +1,5 @@
 import React from 'react'
-import IconCabecera from '../../assets/images/IconResponsiveCabacera.jpg'
+import { IconCabecera } from '../../assets/images/IconResponsiveCabacera.jpg'
 
 const IconResponsiveCabecera = () => {
   return (
