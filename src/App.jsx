@@ -5,12 +5,13 @@ import Prueba from './components/Prueba'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-  return (
-    <div className="App">
-      <Prueba />
-      </div>
-  )
+    const [count, setCount] = useState(0)
+
+    return (
+        <div className="App">
+            <Prueba />
+        </div>
+    )
 }
 
 export default App

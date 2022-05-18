@@ -1,17 +1,15 @@
 import React from 'react';
-import {Login} from './molecules/Index';
-import {BienvenidaOkhlos} from './molecules/Index'
-import {DashboardOptions} from './molecules/Index'
+import {ContainerLogin} from './organismos';
+
 
 const Prueba = () => {
-  
-  return (
-    <div >
-    <Login/>
-    <BienvenidaOkhlos/>
-    <DashboardOptions/>
-    </div>
-  )
+	return (
+		<div >
+
+			<ContainerLogin />
+		
+		</div>
+	)
 }
 
 export default Prueba
