@@ -3,7 +3,7 @@ import Images from '../../assets/Images'
 
 const LogoEducamas = () => {
   return (
-    <img src={Images.LogoNegroEducamas} alt="LogoEducamas" />
+    <img style={{width:'25rem' }} src={Images.LogoNegroEducamas} alt="LogoEducamas" />
   )
 }
 
