@@ -4,7 +4,7 @@ import Images from '../../assets/Images'
 
 const ImgBienvenidaAdmin = () => {
   return (
-    <img src={Images.ImgBienvenidaAdmin} alt="ImgStudent" />
+    <img style={{width:'20rem' }}src={Images.ImgBienAdmin} alt="ImgStudent" />
   )
 }
 
