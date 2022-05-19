@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavbarDashboard, SidebarDashboard } from '../components/plantillas'
-import {Welcome, ImgFase2,CardsInfoGeneral } from '../components/organisms' 
+import {Welcome, ImgFase2,CardsInfoGeneral } from '../components/organisms/Index' 
 
 const PaginaAdmin = () => {
     return (
