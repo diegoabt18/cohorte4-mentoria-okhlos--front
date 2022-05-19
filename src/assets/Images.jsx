@@ -5,7 +5,8 @@ import Perfil from './images/perfil.png';
 import IconResponsiveCabacera from './images/IconResponsiveCabacera.png';
 import ImagenLogin from './images/ImagenLogin.png';
 import ImgBienAdmin from './images/ImgBienAdmin.png';
-
+import imgform from './images/imgform.png';
+import imginf from './images/imginf.png';
 
 export default {
     LogoNegroEducamas,
@@ -14,5 +15,7 @@ export default {
     Perfil,
     IconResponsiveCabacera,
     ImagenLogin,
-    ImgBienAdmin
+    ImgBienAdmin,
+    imgform,
+    imginf
 }
