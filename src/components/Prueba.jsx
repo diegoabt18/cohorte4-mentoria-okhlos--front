@@ -1,14 +1,13 @@
 import React from 'react';
+import { Table } from './organisms';
+import { ButtonLoadDataExcel } from './atoms';
 
 const Prueba = () => {
 
   return (
     <div >
-      <ButtonLoadDataExcel />
+      <ButtonLoadDataExcel/>
       <Table />
-      <Login />
-      <BienvenidaOkhlos />
-      <DashboardOptions />
     </div>
   )
 }
