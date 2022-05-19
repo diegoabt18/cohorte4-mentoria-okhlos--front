@@ -7,7 +7,8 @@ import { AddStudent } from './molecules/Index';
 import { ItemMenu } from './molecules/Index';
 import {AdminWithName} from './molecules/Index'
 import {HomeOnly} from './molecules/Index'
-import Welcome from './organisms/Welcome';
+import {Welcome} from './organisms/Index';
+import {CardsInfoGeneral} from './organisms/Index'
 
 const Prueba = () => {
   
@@ -22,6 +23,7 @@ const Prueba = () => {
     <AdminWithName/>
     <HomeOnly/>
     <Welcome/>
+    <CardsInfoGeneral/>
     </div>
   )
 }
