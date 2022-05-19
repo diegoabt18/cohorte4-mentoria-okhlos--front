@@ -1,7 +1,6 @@
 import React from 'react'
-import { NavbarDashboard, SidebarDashboard } from '../components/plantillas/Index'
-import {Welcome, } from '../components/organisms/Index'
-import CardsInfoGeneral from '../components/organisms/CardsInfoGeneral'
+import { NavbarDashboard, SidebarDashboard } from '../components/plantillas'
+import {Welcome, ImgFase2,CardsInfoGeneral } from '../components/organisms' 
 
 const PaginaAdmin = () => {
     return (
@@ -13,6 +12,7 @@ const PaginaAdmin = () => {
                 <NavbarDashboard />
                 <Welcome/>
                 <CardsInfoGeneral/>
+                <ImgFase2/>
             </div>
 
 
