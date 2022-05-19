@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavbarDashboard, SidebarDashboard } from '../components/plantillas'
+import { NavbarDashboard, SidebarDashboard } from '../components/plantillas/Index'
 
 const PaginaAdmin = () => {
     return (
