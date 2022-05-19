@@ -31,3 +31,4 @@ export {default as TitlePage} from "./TitlePage";
 export {default as XCloseBtn} from "./XCloseBtn";
 export {default as ModalAlert} from "./ModalAlert";
 export {default as ButtonLoadDataExcel} from "./ButtonLoadDataExcel";
+export {default as BtnInfo} from "./BtnInfo";

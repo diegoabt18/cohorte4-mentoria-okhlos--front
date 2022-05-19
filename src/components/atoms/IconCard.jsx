@@ -4,7 +4,9 @@ import { Icon } from '@iconify/react'
 const IconCard = () => {
     
   return (
-    <Icon icon= "ph:student-fill" style={{display:'inline'}}/> 
+    <div className=''>
+    <Icon icon= "ph:student-fill" style={{display:'inline',width:'50px', height:'50px' }}/> 
+    </div>
   )
 }
 

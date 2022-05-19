@@ -3,7 +3,7 @@ import { ImgBienvenidaAdmin, TextBienvenidaDashboard, } from '../atoms'
 
 const BienvenidaOkhlos = () => {
   return (
-    <div className='flex gap-x-2 items-center justify-around '>
+    <div className='flex justify-between'>
         <TextBienvenidaDashboard/>
         <ImgBienvenidaAdmin/>
         </div>

@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react'
 const IconMenu = () => {
   return (
     <div className='flex items-center'>
-    <Icon icon="ci:home-alt-outline" style={{display:'inline'}}/> Inicio
+    <Icon icon="ci:home-alt-outline" style={{display:'inline'}}/> TEXT
     </div>  
   )
 }

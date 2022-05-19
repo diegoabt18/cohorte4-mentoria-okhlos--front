@@ -2,7 +2,7 @@ import React from 'react'
 
 const PersonName = () => {
   return (
-    <p className='font-Roboto font-bold'>
+    <p className='text-center bg-PrimarioColor2 font-Roboto font-bold'>
         Diego Botello
     </p>
   )

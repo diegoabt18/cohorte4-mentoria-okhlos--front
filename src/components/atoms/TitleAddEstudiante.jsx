@@ -1,14 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const TitleAddEstudiante = () => {
   return (
-    
-    <div className="relative w-1/3 ">
-    <div className="bg-PrimarioColor2 text-black text-sm font-Roboto font-medium py-0.5 rounded ">
-    Agregar Estudiante</div>
+    <div className="bg-PrimarioColor2 text-black text-md font-Roboto font-medium">
+      Agregar Estudiante
     </div>
-    
-  )
-}
+  );
+};
 
-export default TitleAddEstudiante
+export default TitleAddEstudiante;
