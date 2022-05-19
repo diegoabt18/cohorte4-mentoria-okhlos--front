@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavbarDashboard, SidebarDashboard } from '../components/plantillas/Index'
+import {Welcome, } from '../components/organisms/Index'
+import CardsInfoGeneral from '../components/organisms/CardsInfoGeneral'
 
 const PaginaAdmin = () => {
     return (
@@ -9,7 +11,8 @@ const PaginaAdmin = () => {
             </div>
             <div className='w-full'>
                 <NavbarDashboard />
-                aqui iria la dashboard
+                <Welcome/>
+                <CardsInfoGeneral/>
             </div>
 
 
