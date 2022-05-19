@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import Prueba from './components/Prueba'
-import Login from './views/admin/Login'
 
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
   return (
     <div className="App">
       <Prueba />
-      <Login />
     </div>
   )
 }
