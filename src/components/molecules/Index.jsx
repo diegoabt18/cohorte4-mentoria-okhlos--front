@@ -9,3 +9,7 @@ export {default as ItemMenu} from "./ItemMenu"
 export {default as AdminWithName} from "./AdminWithName"
 export {default as HomeOnly} from "./HomeOnly"
 export {default as SocialMedia} from "./SocialMedia"
+export {default as UserLogin} from './UserLogin';
+export {default as Perfil} from './Perfil';
+export { default as Navbar } from './Navbar'
+
