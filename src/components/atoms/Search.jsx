@@ -10,7 +10,7 @@ const Search = () => {
       >
         Search
       </label>
-      <div className="relative w-1/4 ">
+      <div className="relative  ">
         <input
           type="search"
           id="default-search"
@@ -20,12 +20,12 @@ const Search = () => {
         />
 
         <div className="absolute right-0 top-[50%] translate-y-[-50%]">
-        <button
-          type="submit"
-          className="p-2.5 ml-2 text-sm font-medium text-black bg-transparent rounded-lg hover:bg-transparent focus:ring-1 focus:outline-none focus:ring-transparent dark:bg-transparent dark:hover:bg-transparent dark:focus:ring-transparent"
-         >
-          <Icon icon= "akar-icons:search" style={{display:'inline'}}/>
-        </button>
+          <button
+            type="submit"
+            className="p-2.5 ml-2 text-sm font-medium text-black bg-transparent rounded-lg hover:bg-transparent focus:ring-1 focus:outline-none focus:ring-transparent dark:bg-transparent dark:hover:bg-transparent dark:focus:ring-transparent"
+          >
+            <Icon icon="akar-icons:search" style={{ display: 'inline' }} />
+          </button>
         </div>
       </div>
     </form>

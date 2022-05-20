@@ -1,12 +1,14 @@
 import React from 'react'
-import {Table} from '../organisms'
-import {PageOptionsTitle} from '../molecules'
+import { Table } from '../organisms'
+import { PageOptionsTitle, OptionTable } from '../molecules'
 
 const PlantillaEstudent = () => {
   return (
     <div>
-            <PageOptionsTitle />
-            <Table />
+      
+      <PageOptionsTitle />
+      <OptionTable />
+      <Table />
     </div>
   )
 }
