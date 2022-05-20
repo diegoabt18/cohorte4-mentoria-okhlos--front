@@ -1,6 +1,8 @@
 import React from 'react'
-import { NavbarDashboard, SidebarDashboard } from '../components/plantillas'
-import {Welcome, ImgFase2,CardsInfoGeneral } from '../components/organisms/Index' 
+import { NavbarDashboard, SidebarDashboard } from '../components/templates/Index'
+import { Routes, Route } from "react-router-dom";
+import Dashboard from './Dashboard';
+import EstudentPageLoad from './EstudentPageLoad';
 
 const PaginaAdmin = () => {
     return (
@@ -10,9 +12,14 @@ const PaginaAdmin = () => {
             </div>
             <div className='w-full'>
                 <NavbarDashboard />
-                <Welcome/>
-                <CardsInfoGeneral/>
-                <ImgFase2/>
+                <div id='Cuerpo'>
+                    <Routes>
+                        <Route path="/" element={<Dashboard/>}/>
+                        <Route path="/Home" element={<Dashboard/>}/>
+                        <Route path="/EstudentLoad" element={<EstudentPageLoad/>}/>
+                    </Routes>
+                </div>
+                
             </div>
 
 

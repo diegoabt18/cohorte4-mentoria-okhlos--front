@@ -14,7 +14,7 @@ const ContenedorPerfil = () => {
                         <a>
                             <Perfil />
                             <div className='bg-white flex justify-end mt-3'>
-                                <BasicButton />
+                                <BasicButton text={"Salir"}/>
                             </div>
                         </a>
                     </ul>

@@ -11,4 +11,5 @@ export {default as OnlyItemMenu} from "./OnlyItemMenu"
 export {default as SocialMedia} from "./SocialMedia"
 export {default as UserLogin} from './UserLogin';
 export {default as Perfil} from './Perfil';
+export {default as PageOptionsTitle} from './PageOptionsTitle';
 

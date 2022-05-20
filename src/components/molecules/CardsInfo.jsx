@@ -1,15 +1,15 @@
 import React from 'react'
-import {IconCard,CardInfo,BtnInfo, } from '../atoms'
+import { IconCard, CardInfo, BtnInfo, } from '../atoms'
 
-const CardsInfo = () => {
+const CardsInfo = ({color, text, dato}) => {
   return (
-        <div className='flex items-center justify-center flex-col w-full'>
-        <div className='text-center items-center justify-center w-full grid grid-cols-2'>
-        <CardInfo/>
-        <IconCard/>
-        </div>
-        <BtnInfo/>
-        </div>
+    <div className={"flex justify-between aspect-video flex-col w-full "+color} >
+      <div className='h-full text-center items-center justify-center w-full grid grid-cols-2'>
+        <CardInfo text={text} dato={dato}/>
+        <IconCard />
+      </div>
+      <BtnInfo />
+    </div>
   )
 }
 

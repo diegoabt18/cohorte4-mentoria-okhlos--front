@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BasicButton = () => {
+const BasicButton = ({text}) => {
     return (
         <button className="
             bg-PrimarioColor2 
@@ -13,7 +13,7 @@ const BasicButton = () => {
             px-4 
             rounded"
         >
-            Ingresar
+            {text}
         </button>
     )
 }

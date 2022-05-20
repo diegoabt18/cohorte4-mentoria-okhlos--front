@@ -3,12 +3,15 @@ import { BasicButton, TextInfoDashBoard } from '../atoms'
 
 const DashboardOptions = () => {
   return (
-    <div className='flex gap-x-2 items-center justify-between'>
-        <TextInfoDashBoard/>
-        <div className='flex gap-x-8 justify-between w-1/3' >
-        <BasicButton/>
-        <BasicButton/>
-        </div>
+    <div className='grid grid-cols-2 p-4 '>
+      <div >
+        <TextInfoDashBoard />
+
+      </div>
+      <div className='flex gap-x-4 justify-end items-start pr-4 pt-4'  >
+        <BasicButton text={"Programate"} />
+        <BasicButton text={"Proyectate"} />
+      </div>
     </div>
   )
 }
