@@ -9,4 +9,4 @@ const Rol = () => {
 };
 
 export default Rol;
-  
+
